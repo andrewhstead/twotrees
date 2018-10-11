@@ -1,0 +1,38 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	background-color: #eeeeff;
+	margin: 0;
+	padding: 0;
+}
+
+/* Styling the page header. */
+header {
+	width: 100%;
+	text-align: center;
+	display: flex;
+}
+.header_box {
+	flex: 1;
+	margin: auto;
+	font-size: 1.2em;
+}
+.header_img {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	padding: 0;
+	vertical-align: top
+}
+
+/* Styling the content of each page. */
+.page_content {
+	border-radius: 10px;
+	box-shadow: 0 0 5px 5px #5e361d;
+	margin: 0 5% 5% 5%;
+	padding: 5px;
+	background-color: #ffffee;
+}
+.page_text {
+	padding: 0 10px;
+	text-align: justify;
+}
