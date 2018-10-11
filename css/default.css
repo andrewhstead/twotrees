@@ -1,6 +1,6 @@
 body {
 	font-family: 'Oswald', sans-serif;
-	background-color: #eeeeff;
+	background-color: #ffffee;
 	margin: 0;
 	padding: 0;
 }
@@ -34,7 +34,7 @@ header {
 .main_menu {
 	background-color: #5e361d;
 	padding: 0 5px 5px 5px;
-	color: #ffffee;
+	color: #ffffff;
 }
 
 /* Styling the content of each page. */
@@ -42,7 +42,7 @@ header {
 	border-radius: 10px;
 	box-shadow: 0 0 5px 5px #5e361d;
 	margin: 0 5% 5% 5%;
-	background-color: #ffffee;
+	background-color: #ffffff;
 }
 .page_content p {
 		margin: 0 0 10px 0;
