@@ -11,10 +11,18 @@ header {
 	text-align: center;
 	display: flex;
 }
-.header_box {
+.header_image {
 	flex: 1;
 	margin: auto;
 	font-size: 1.25em;
+}
+.header_box {
+	flex: 2;
+	margin: auto;
+	font-size: 2em;
+}
+.sub-header {
+	font-size: 0.65em;
 }
 .header_img {
 	height: 100px;
