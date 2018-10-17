@@ -8,34 +8,23 @@ body {
 /* Styling the page header. */
 header {
 	width: 100%;
-	text-align: center;
 	display: flex;
+	margin: 0 5%;
 }
-.header_image {
-	flex: 1;
-	margin: auto;
-	font-size: 1.25em;
-}
-.header_box {
-	flex: 2;
-	margin: auto;
+.header-text {
 	font-size: 2em;
+	display: inline;
+	padding-top: 5px;
 }
 .sub-header {
 	font-size: 0.65em;
 }
-.header_img {
+.header_img  img {
 	height: 100px;
 	width: 100px;
-	margin: 0 auto;
 	padding: 0;
-	vertical-align: top
-}
-.right_align {
-	text-align: right;
-}
-.left_align {
-	text-align: left;
+	vertical-align: top;
+	display: inline-block;
 }
 
 /* Styling the site navigation. */
