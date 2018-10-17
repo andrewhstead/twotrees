@@ -1,13 +1,13 @@
 body {
 	font-family: 'Oswald', sans-serif;
 	background-color: #ffffee;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+	max-width: 1200px;
 }
 
 /* Styling the page header. */
 header {
-	width: 100%;
 	display: flex;
 	margin: 0 5%;
 }
@@ -28,10 +28,12 @@ header {
 }
 
 /* Styling the site navigation. */
-.main_menu {
+.main-menu {
 	background-color: #5e361d;
 	padding: 0 5px 5px 5px;
 	color: #ffffff;
+	display: flex;
+	border-radius: 5px 5px 0 0;
 }
 
 /* Styling the content of each page. */
@@ -48,7 +50,61 @@ header {
 		margin: 0;
 }
 .page_text {
-	padding: 10px;
+	padding: 10px 20px;
 	text-align: justify;
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+h1, h2 {
 	margin: 0;
+	font-weight: normal;
+	font-size: 1em;
+}
+h3 {
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+h4 {
+	margin: 5px 0;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.menu-item {
+	flex: 1;
+	display: inline;
+	text-align: center;
+}
+.menu-item:hover {
+	flex: 1;
+	display: inline;
+	text-align: center;
+	color: #5e361d;
+	background-color: white;
+	border-radius: 10px;
+	cursor: pointer;
+    transition: 0.5s;
+}
+
+.page-section {
+	display: none;
+}
+.active {
+	display: block;
+}
+
+footer {
+	background-color: #5e361d;
+	padding: 0 5px 0 5px;
+	color: #ffffff;
+	border-radius: 0 0 5px 5px;
+}
+.trading-as {
+	font-size: 0.6em;
+	margin-left: 10px;
 }
