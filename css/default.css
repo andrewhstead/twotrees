@@ -7,6 +7,12 @@ body {
 
 /* Styling the page header. */
 header {
+	position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 999;
+}
+#header-text {
 	display: flex;
 	padding: 0;
 	background-color: #ffffee;
