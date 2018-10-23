@@ -44,22 +44,46 @@ header {
 }
 
 /* Styling the content of each page. */
-.page_content {
+#page-content {
 	background-color: #ffffff;
 	padding: 10px 20px;
 	text-align: justify;
 	margin: 10px auto;
 	max-width: 800px;
-	min-height: 1000px;
 	z-index: -1;
+	display: flex;
+	flex-direction: column;
 }
-.page_content p {
+@media screen and (min-width: 801px) {
+    #page-content {
+        flex-direction: row;
+    }
+    #page-text {
+    	margin: 0 25px 0 0;
+    }
+}
+#page-content p {
 		margin: 0 0 10px 0;
 }
-.page_content p:last-of-type {
+#page-content p:last-of-type {
 		margin: 0;
 }
-.page_text {
+#page-text {
+	flex: 2;
+	min-height: 600px;
+}
+#contact-details {
+	flex: 1;
+	margin: 20px 0 10px 0;
+}
+#contact-info {
+	margin: 20px;
+	background-color: #ffffee;
+	padding: 20px;
+	border: 1px solid #5e361d;
+	box-shadow: 0 0 5px 5px #5e361d;
+	margin: auto;
+	max-width: 300px;
 }
 
 h1, h2 {
@@ -113,4 +137,7 @@ footer {
 .trading-as {
 	font-size: 0.6em;
 	margin-left: 5px;
+}
+ul {
+	margin: 0;
 }
